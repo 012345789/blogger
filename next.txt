@@ -1,0 +1,7 @@
+P: Figure out how to pass dynamic data as props to a component rendered by react-router-dom's Route element.
+S: <Route path='path/:id' render={props => <Element {...props}>}/>
+
+P: Is GraphQL needed? As it is now, article id is the only param. 
+TS: Deferred until UI is more complete.
+
+P: Simulate AJAX calls for now. Find a tool to mock responses.
