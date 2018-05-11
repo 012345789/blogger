@@ -4,4 +4,7 @@ S: <Route path='path/:id' render={props => <Element {...props}>}/>
 P: Is GraphQL needed? As it is now, article id is the only param. 
 TS: Deferred until UI is more complete.
 
-P: Simulate AJAX calls for now. Find a tool to mock responses.
+P: Dynamic data responses to test dynamic routing and UI.
+TS: Simulate AJAX calls for now. Find a tool to mock responses.
+TS: Create the server and host it locally.
+
